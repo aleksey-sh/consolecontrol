@@ -58,7 +58,8 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>ConsoleControl.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -121,9 +122,6 @@
       <Project>{a4b8573f-ebfc-4140-b8aa-7c037919ef57}</Project>
       <Name>ConsoleControlAPI</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ConsoleControl.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
